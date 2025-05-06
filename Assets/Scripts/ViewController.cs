@@ -63,7 +63,8 @@ public class ViewController : MonoBehaviour {
 
 		// Set empty indicator
 		if(selectedCategory.animations.Count == 0) {
-			Instantiate(nonePrefab, animationList);
+			TMP_Text label = Instantiate(nonePrefab, animationList);
+			label.text = $"No {selectedCategory.name} animations available";
 		}
 	}
 
