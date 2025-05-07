@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Silly Dancing
   m_EditorClassIdentifier: 
   name: Silly Dancing
-  duration: 90
+  duration: 4
+  prefab: {fileID: 919132149155446097, guid: fbecfb00bc2f84f9781eb8de6612b128, type: 3}

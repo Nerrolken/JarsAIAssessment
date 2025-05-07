@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Jump Push Up
   m_EditorClassIdentifier: 
   name: Jump Push Up
-  duration: 90
+  duration: 2
+  prefab: {fileID: 919132149155446097, guid: d76108929d930444bbdbf8613457855c, type: 3}

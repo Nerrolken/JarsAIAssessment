@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Joyful Jump
   m_EditorClassIdentifier: 
   name: Joyful Jump
-  duration: 90
+  duration: 2
+  prefab: {fileID: 919132149155446097, guid: 3a974ee6783174883b5a86d69b33b1f5, type: 3}

@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Old Man Idle
   m_EditorClassIdentifier: 
   name: Old Man Idle
-  duration: 90
+  duration: 13
+  prefab: {fileID: 919132149155446097, guid: 53e9e61467a9c4437bd63f45614c01cd, type: 3}

@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Twist Dance
   m_EditorClassIdentifier: 
   name: Twist Dance
-  duration: 90
+  duration: 10
+  prefab: {fileID: 919132149155446097, guid: b8f5965fcf7414ecea8f734667ba11a4, type: 3}

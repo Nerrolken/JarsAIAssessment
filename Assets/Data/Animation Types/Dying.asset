@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Dying
   m_EditorClassIdentifier: 
   name: Dying
-  duration: 90
+  duration: 5
+  prefab: {fileID: 919132149155446097, guid: 31173e22c5743430295fe60811199aba, type: 3}
