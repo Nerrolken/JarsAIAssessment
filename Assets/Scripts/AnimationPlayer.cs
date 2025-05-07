@@ -16,13 +16,13 @@ public class AnimationPlayer : MonoBehaviour {
 	public void InstantiateAndPlay(GameObject fbxPrefab) {
 		controlPanel.SetActive(fbxPrefab != null);
 
-		if(fbxPrefab == null || parentTransform == null) {
-			return;
-		}
-
 		// Destroy any previously spawned instance
 		if(instantiatedObject != null) {
 			DestroyImmediate(instantiatedObject);
+		}
+
+		if(fbxPrefab == null || parentTransform == null) {
+			return;
 		}
 
 		// Instantiate the prefab at localPosition zero

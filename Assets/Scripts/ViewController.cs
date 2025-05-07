@@ -20,12 +20,7 @@ public class ViewController : MonoBehaviour {
 	public RectTransform animationList;
 
 	private void Awake() {
-		if(instance == null) {
-			instance = this;
-			DontDestroyOnLoad(this);
-		} else {
-			Destroy(gameObject);
-		}
+		instance = this;
 	}
 
 	private void Start() {
