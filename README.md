@@ -1,6 +1,6 @@
 # Jars.AI Assessment
 
-Hey folks! Alexander Winn here, with my code assessment. Here's a brief rundown of what I've got, and I'd be happy to walk through it with you if you'd like.
+Hey folks! Alexander Winn here with my code assessment. Here's a brief rundown of what I've got, and I'd be happy to walk through it with you if you'd like.
 
 - All Baseline Requirements are complete.
 - All Core Technical Evaluation Points are complete.
