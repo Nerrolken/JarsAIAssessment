@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Jumping
   m_EditorClassIdentifier: 
   name: Jumping
-  animations: []
+  animations:
+  - {fileID: 11400000, guid: e433b39724a714ac591a2230125d1f49, type: 2}
+  - {fileID: 11400000, guid: 0d9ee2d78280141829da1825228332ab, type: 2}

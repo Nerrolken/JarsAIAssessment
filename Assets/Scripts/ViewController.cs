@@ -9,6 +9,7 @@ public class ViewController : MonoBehaviour {
 	private AnimationCategory selectedCategory;
 	private AnimationType selectedType;
 	public AnimationCategory SelectedCategory => selectedCategory;
+	public AnimationPlayer animationPlayer;
 
 	[Header("Prefabs")]
 	public AnimationCell cellPrefab;
@@ -28,18 +29,19 @@ public class ViewController : MonoBehaviour {
 	}
 
 	private void Start() {
-		RefreshAnimationList();
+		SetAnimationCategory(null);
 	}
 
 	public void SetAnimationCategory(AnimationCategory category) {
 		selectedCategory = category;
-		selectedType = null;
+		SetAnimationType(null);
 
 		RefreshAnimationList();
 	}
 
 	public void SetAnimationType(AnimationType type) {
 		selectedType = type;
+		animationPlayer.InstantiateAndPlay(type?.prefab);
 	}
 
 	private void RefreshAnimationList() {

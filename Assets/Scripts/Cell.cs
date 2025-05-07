@@ -10,6 +10,8 @@ public abstract class Cell : MonoBehaviour {
 	public Image background;
 
 	public void SetSelected(bool isSelected) {
+		if(background == null) return;
+
 		if(isSelected) {
 			background.color = selectedColor;
 		} else {

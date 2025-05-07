@@ -15,3 +15,5 @@ MonoBehaviour:
   name: Happy
   animations:
   - {fileID: 11400000, guid: 6de5c7d6b94ec457a962c7fc697dea8a, type: 2}
+  - {fileID: 11400000, guid: e433b39724a714ac591a2230125d1f49, type: 2}
+  - {fileID: 11400000, guid: 63c33a2c7b36d44df832133b290761c0, type: 2}

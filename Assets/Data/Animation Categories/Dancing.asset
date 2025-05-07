@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Dancing
   m_EditorClassIdentifier: 
   name: Dancing
-  animations: []
+  animations:
+  - {fileID: 11400000, guid: 63c33a2c7b36d44df832133b290761c0, type: 2}
+  - {fileID: 11400000, guid: 6de5c7d6b94ec457a962c7fc697dea8a, type: 2}

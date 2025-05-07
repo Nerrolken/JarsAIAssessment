@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Sad
   m_EditorClassIdentifier: 
   name: Sad
-  animations: []
+  animations:
+  - {fileID: 11400000, guid: bc3ade2afb3af49b8a30626aa2ac6ad6, type: 2}
+  - {fileID: 11400000, guid: 00c63379fa85d44b5a03769334862e6d, type: 2}

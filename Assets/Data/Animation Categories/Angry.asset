@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Angry
   m_EditorClassIdentifier: 
   name: Angry
-  animations: []
+  animations:
+  - {fileID: 11400000, guid: 00c63379fa85d44b5a03769334862e6d, type: 2}
